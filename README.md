@@ -3,9 +3,7 @@
 This repository is for IDS706 mini project week 5. 
 
 ## Purpose 
-    This repository is built for testing different python versions and operation systems via github actions. 
-    Matrix strategy is use for running multiple testing tasks at the same time. 
-    The function in main.py gets the python version and operatin systems. 
+    This repository is for building an ETL-Query pipeline. Github actions such as extract, transform and load, and query are included. A local csv file is extracted from a url and then cleaned and loaded into a .db file. SQLlite is used to query it. 
     
 ## Important Things included are:
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
