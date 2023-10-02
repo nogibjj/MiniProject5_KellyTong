@@ -1,6 +1,6 @@
 # IDS 706 Mini Project 5
 
-This repository is for IDS706 mini project week 4. 
+This repository is for IDS706 mini project week 5. 
 
 ## Purpose 
     This repository is built for testing different python versions and operation systems via github actions. 
