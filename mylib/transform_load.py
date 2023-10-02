@@ -1,7 +1,7 @@
 import sqlite3
 import csv
 
-def load(file_path="cars.csv"):
+def load(file_path="Auto.csv"):
     """Transforms and Loads data into the local SQLite3 database"""
     
     with open(file_path, 'r', newline='') as f:
@@ -16,7 +16,7 @@ def load(file_path="cars.csv"):
 
     conn = sqlite3.connect('Auto.db')
     c = conn.cursor()
-    c.execute("DROP TABLE IF EXISTS Auto")
+    c.execute("DROP TABLE IF EXISTS AutoDB")
     
     # Create table query split for better readability
     create_table_query = (
@@ -36,4 +36,4 @@ def load(file_path="cars.csv"):
     
     conn.commit()
     conn.close()
-    return "CarsDB.db"
+    return "AutoDB.db"
