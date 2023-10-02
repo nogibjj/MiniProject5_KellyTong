@@ -1,9 +1,16 @@
-#this is for testing functions in main.py
+import pytest
+from unittest.mock import patch
+from main import main
 
-from main import subtraction
+def test_main_function():
+    with patch('builtins.input', return_value=''):  # Mocking user input
+        with patch('main.extract') as mock_extract:
+            with patch('main.load') as mock_load:
+                with patch('main.query') as mock_query:
+                    main()
+                    mock_extract.assert_called_once()
+                    mock_load.assert_called_once()
+                    mock_query.assert_called_once()
 
-def test_subtraction():
-    "testing the subtraction function in main.py"
-    assert subtraction(5,5) == 0
-    assert subtraction (1,6) == -5
-    assert subtraction (6,1) == 5
+if __name__ == "__main__":
+    pytest.main()
