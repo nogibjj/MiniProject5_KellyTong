@@ -1,7 +1,7 @@
 import requests
 
 def extract(
-    url="https://raw.githubusercontent.com/Kelly0604/Mini_Project5/main/Auto.csv", 
+    url="https://github.com/nogibjj/MiniProject5_KellyTong/blob/main/Auto.csv", 
     file_path="Auto.csv"
 ):
     """Extract a url to a file path"""
