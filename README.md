@@ -3,7 +3,10 @@
 This repository is for IDS706 mini project week 5. 
 
 ## Purpose 
-    This repository is for building an ETL-Query pipeline. Github actions such as extract, transform and load, and query are included. A local csv file is extracted from a url and then cleaned and loaded into a .db file. SQLlite is used to query it. 
+    This repository is for building an ETL-Query pipeline. 
+    Github actions such as extract, transform and load, and query are included. 
+    A local csv file is extracted from a url and then cleaned and loaded into a .db file. 
+    SQLlite is used to query it. 
     
 ## Important Things included are:
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
