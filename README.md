@@ -28,11 +28,29 @@ Status badges for CI.yml
 `CI.yml`
 [![CI](https://github.com/nogibjj/Kelly_Tong_miniproject4/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_miniproject4/actions/workflows/CI.yml)
 
-## The Building Process (example) 
+## Results
+By running command: python main.py
+`extract`
+<img width="466" alt="截屏2023-10-02 23 32 09" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/ff1ce85c-030f-4762-85d2-408fba3d9a37">
+`transform_load`
+`query`
+<img width="775" alt="截屏2023-10-02 23 27 28" >
+
+## Building Process
+
 
 `make install`
 
-The building process starts with installing the packages. 
+The building process starts with installing the packages. src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/9536970f-0358-4570-b810-5ea7b424a8f0">
+
+`make extract`
+
+
+`make transform_load`
+
+
+`make query`
+
 
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
 
