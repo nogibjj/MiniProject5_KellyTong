@@ -23,6 +23,9 @@ This repository is for IDS706 mini project week 5.
 
 - ``test_main.py`` is a test file for main.py
 
+- ``test_main.py`` includes ``extract.py`` ``transform_load.py`` and ``query.py`` which are used to extract
+  a csv from an url, clean it and return a db file. 
+
 ## Github actions
 Status badges for CI.yml
 `CI.yml`
