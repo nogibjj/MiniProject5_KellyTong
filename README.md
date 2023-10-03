@@ -31,10 +31,13 @@ Status badges for CI.yml
 ## Results
 By running command: python main.py
 `extract`
+
 <img width="466" alt="截屏2023-10-02 23 32 09" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/ff1ce85c-030f-4762-85d2-408fba3d9a37">
+
 `transform_load`
 `query`
-<img width="775" alt="截屏2023-10-02 23 27 28" >
+<img width="775" alt="截屏2023-10-02 23 27 28" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/14e70102-7963-40e4-883d-d3c697ef6984">
+
 
 ## Building Process
 
@@ -45,12 +48,15 @@ The building process starts with installing the packages. src="https://github.co
 
 `make extract`
 
+<img width="600" alt="截屏2023-10-02 23 35 30" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/3c644d65-ea4a-4e7a-ae3e-fcc405432b60">
 
 `make transform_load`
 
+<img width="257" alt="截屏2023-10-02 23 34 17" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/12959752-a54c-41cd-ae19-4c701eec414a">
 
 `make query`
 
+<img width="206" alt="截屏2023-10-02 23 34 21" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/9bd70437-5329-47bb-9614-431981068365">
 
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
 
@@ -62,7 +68,9 @@ The building process starts with installing the packages. src="https://github.co
 `make test`
 
 **Make test** calls the command python -m pytest -vv --cov=main test_*.py
-<img width="851" alt="截屏2023-09-23 21 38 15" src="https://github.com/nogibjj/Kelly_Tong_miniproject4/assets/142815940/e1e570b5-f7b8-4cf3-b9e4-073e91611716">
+
+<img width="600" alt="截屏2023-10-02 23 35 30" src="https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/44f27727-bcde-4e38-a6fb-df691f22033e">
+
 
 `make format`
 
