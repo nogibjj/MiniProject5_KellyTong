@@ -1,7 +1,7 @@
 import requests
 
 def extract(
-    url="https://github.com/selva86/datasets/blob/master/Auto.csv", 
+    url="https://raw.githubusercontent.com/selva86/datasets/master/Auto.csv", 
     file_path="Auto.csv"
 ):
     """Extract a url to a file path"""

@@ -14,23 +14,20 @@ def load(file_path="Auto.csv"):
         if len(row) != 9:
             print(f"Incorrect number of fields in row: {row}")
 
-    conn = sqlite3.connect('Auto.db')
+    conn = sqlite3.connect('AutoDB.db')
     c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS AutoDB")
     
     # Create table query split for better readability
     create_table_query = (
         "CREATE TABLE AutoDB ("
-        "Brand TEXT, Price REAL, Body TEXT, Mileage INTEGER, "
-        "EngineV REAL, Engine_Type TEXT, Registration TEXT, "
-        "Year INTEGER, Model TEXT)"
+        "Brand TEXT)"
     )
     c.execute(create_table_query)
     
     # Insert data query
     insert_data_query = (
-        "INSERT INTO AutoDB (Brand, Price, Body, Mileage, EngineV, Engine_Type, "
-        "Registration, Year, Model) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        "INSERT INTO AutoDB (Brand) VALUES (?)"
     )
     c.executemany(insert_data_query, payload)
     
