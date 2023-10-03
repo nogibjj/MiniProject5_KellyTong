@@ -91,3 +91,8 @@ The building process starts with installing the packages.
 **Make format** calls the command black *.py
 
 <img width="299" alt="make format" src="https://github.com/Kelly0604/miniproject2/assets/142815940/41df08ca-d8f7-4b62-b88b-1f39f1a7d858">
+
+## Visualization for how the process work
+
+![1_xHSzARQPes6JhHe_jNGRdg](https://github.com/nogibjj/MiniProject5_KellyTong/assets/142815940/57a7ce64-dab8-40c3-a066-87fe9862dd41)
+
