@@ -7,7 +7,7 @@ def query():
     """Query the database for the top 5 rows of Auto"""
     conn = sqlite3.connect("Auto.db")
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM CarsDB LIMIT 5")
+    cursor.execute("SELECT * FROM AutoDB")
     print("Top 5 rows of Auto:")
     print(cursor.fetchall())
     conn.close()
